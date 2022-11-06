@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "925619370806",
+    "project_id": "myapp-74dbd",
+    "storage_bucket": "myapp-74dbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925619370806:android:d86a02df0db9c809f15197",
+        "android_client_info": {
+          "package_name": "com.example.ucareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925619370806-v82bbs0dip44is3th9g08meelo77q854.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ucareapp",
+            "certificate_hash": "27556810fd35e3849e0fa4021e31b9a66348b882"
+          }
+        },
+        {
+          "client_id": "925619370806-vf6n4vvmvaimdld4av2eh0d5bah12pgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnYnvSsd_i6G8onFokoOoSxyX3-rGn47U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925619370806-vf6n4vvmvaimdld4av2eh0d5bah12pgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ZoneCare</string>
+    <string name="Stsrtapp">Get Things To Do</string>
+    <string name="Welcometoapp" />
+    <string name="Welcomeapp">"tarted to get in to this app   "</string>
+    <string name="welcomeapp">"Welcome to the ZoneCharity App , You will get great experience by using this app for charity donations, Quick install and mak your donations easily through this app."</string>
+    <string name="getapp">Get Started</string>
+    <string name="forgetpassword">Forget Password?</string>
+    <string name="registerlink">Don\'t have an Account?Sign Up</string>
+    <string name="Welocomeon">Welcome On Board!</string>
+    <string name="letsstart">Let\'s Start To Search For...</string>
+    <string name="registertxt">Register</string>
+    <string name="alreadyaccounttxt">"Already have an Account?Sign "</string>
+    <string name="labtesttxt">Charity Details</string>
+    <string name="test1">Complete blood count</string>
+    <string name="test2">Imaging</string>
+    <string name="test3">Urynalysis</string>
+    <string name="myform">My Appointments</string>
+    <string name="canceltest">Cancel</string>
+    <string name="editmytxt">Edit</string>
+    <string name="col1">RegNo</string>
+    <string name="col2">Name</string>
+    <string name="col3">Address</string>
+    <string name="row1txt">E101</string>
+    <string name="row2txt">Priya</string>
+    <string name="row3txt">Jaffna</string>
+    <string name="para1">Hospitalmanagement houses a unique portfolio of services that keep healthcareprofessionals abreast of
+        the latest and most significant developments within their clinical, surgical or management area.</string>
+    <string name="para2">we have over two decades of experience in the healthcare sector, and is known for providing quality
+        healthcare and valuable experience to all domestic and international patients. Our healthcare
+        offerings are supported by a team of compassionate and dedicated medical professionals who have rich
+        knowledge and experience in their respective domains.</string>
+    <string name="hintreg">RegNo</string>
+    <string name="hintname">Charity Name</string>
+    <string name="hintage">No.Of.Members</string>
+    <string name="hintadd">Address</string>
+    <string name="hintph">Contact Number</string>
+    <string name="hintdate">Email Address</string>
+    <string name="myreg">RegNo</string>
+    <string name="myage">Age</string>
+    <string name="myaddress">Address</string>
+    <string name="myphno">PhNo</string>
+    <string name="mydate">Date</string>
+    <string name="viewbtn">View</string>
+    <string name="bmihead">BMI Calculator</string>
+    <string name="weight">Enter Weight</string>
+    <string name="height">Enter Height</string>
+    <string name="btncal">Calculate</string>
+    <string name="view2">View</string>
+    <string name="view1">View</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="th_butt1">Doctor Appointment</string>
+    <string name="th_butt2">Lab Testing</string>
+    <string name="th_butt3">Covid-19</string>
+    <!-- activity sample  -->
+    <string name="th_doctor1">Dr.K.Jeyasree</string>
+    <string name="th_doc_text1">Cardiologist</string>
+    <string name="th_doc_text2">5years Experience</string>
+    <string name="th_doc_text3">158 Reviews</string>
+    <string name="th_book">Book</string>
+    <string name="th_doctor2">Dr.D.E.Fernando</string>
+    <string name="th_doctor3">Dr.S.K.Shakti</string>
+    <string name="th_doctor4">Dr.L.K.Meyer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thcontactsend">send now</string>
+    <string name="members_500_elders_100_children">Members :500 Elders 100 Children</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFBFB"
+    tools:context=".getstarted">
+
+
+    <Button
+        android:id="@+id/getstart"
+        android:layout_width="190dp"
+        android:layout_height="84dp"
+        android:text="@string/getapp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#EC5819"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969" />
+
+    <TextView
+        android:id="@+id/paraget"
+        android:layout_width="281dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="56dp"
+        android:gravity="center"
+        android:text="@string/welcomeapp"
+        android:textColor="#050505"
+        android:textSize="18dp"
+        android:textIsSelectable="false"
+        app:layout_constraintBottom_toTopOf="@+id/getstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/getpic"
+        android:layout_width="403dp"
+        android:layout_height="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/getpic" />
+
+    <TextView
+        android:id="@+id/gettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Stsrtapp"
+        android:textColor="#EC5819"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/paraget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getpic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

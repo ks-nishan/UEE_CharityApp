@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Ucare App</string>
+    <string name="th_title">Appointment Booking</string>
+    <string name="th_name">Name</string>
+    <string name="th_age">Age</string>
+    <string name="th_address">Address</string>
+    <string name="th_mobile">Mobile</string>
+    <string name="th_date">Date</string>
+    <string name="th_time">Time</string>
+    <string name="th_nic">Nic Number</string>
+    <string name="th_make_as">Make As Appointment</string>
+
+    <!-- activity special grid  -->
+    <string name="th_special">Speciality</string>
+    <string name="th_grid1">Cardiologist</string>
+    <string name="th_grid2">Urologist</string>
+    <string name="th_grid3">Neurologist</string>
+    <string name="th_grid4">Nutritionist</string>
+    <string name="th_grid5">Dental</string>
+    <string name="th_grid6">Eye</string>
+
+    <!-- activity view doctor  -->
+    <string name="th_doctor">Doctor</string>
+
+    <!-- activity view reserve  -->
+    <string name="th_reserve">Reserved Booking</string>
+    <string name="th_text1">Name:Thusara Arul</string>
+    <string name="th_text2">Speciality:Eye</string>
+    <string name="th_text3">Dr.Name: Dr.K.Jeyasree</string>
+    <string name="th_text4">Date:8/8/2021</string>
+    <string name="th_text5">Time:4.00PM</string>
+    <string name="th_update1">Update</string>
+    <string name="th_delete1">Delete</string>
+
+    <string name="th_text1.1">Name:Joyce Meyer</string>
+    <string name="th_text2.1">Speciality:Urologist</string>
+    <string name="th_text3.1">Dr.Name: Dr.K.Rohan</string>
+    <string name="th_text4.1">Date:18/8/2021</string>
+    <string name="th_text5.1">Time:10.00PM</string>
+    <string name="th_update2">Update</string>
+
+
+    <!-- activity dashboard  -->
+    <string name="th_butt1">Doctor Appointment</string>
+    <string name="th_butt2">Lab Testing</string>
+    <string name="th_butt3">Covid-19</string>
+
+    <!-- activity sample  -->
+    <string name="th_doctor1">Dr.K.Jeyasree</string>
+    <string name="th_doc_text1">Cardiologist</string>
+    <string name="th_doc_text2">5years Experience</string>
+    <string name="th_doc_text3">158 Reviews</string>
+    <string name="th_book">Book</string>
+    <string name="th_doctor2">Dr.D.E.Fernando</string>
+    <string name="th_doctor3">Dr.S.K.Shakti</string>
+    <string name="th_doctor4">Dr.L.K.Meyer</string>
+
+    <!-- activity viewbooking  -->
+    <string name="th_viewbook">View Booking</string>
+    <string name="th_view_1">Name : Thusara Arul</string>
+    <string name="th_view_2">Specialty:Cardiologist</string>
+    <string name="th_view_3">Consultant Name : Dr.k.Rohan</string>
+    <string name="th_view_4">Date:1.10.2021  </string>
+    <string name="th_view_5">Time:10.00 Am</string>
+    <string name="th_view_6">Fees: Rs 2000.00</string>
+    <string name="th_pay">Pay</string>
+    <string name="th_reserve12">Reserve</string>
+
+
+    <!-- activity update  -->
+    <string name="th_title_1">Update booking</string>
+
+    <!-- activity update  -->
+    <string name="thcontactname">Name</string>
+    <string name="thcontactemail">Name</string>
+    <string name="thcontactnumber">Name</string>
+    <string name="thcontactmessage">Name</string>
+    <string name="thcontactsend">Send Now</string>
+    <string name="th_reserved1">ok</string>
+
+    <string name="welcomeapp">"Welcome to the Doctors society and get more advantage of being an
+    app user inorder to Get advises from several doctors for your problems  Get started to get in to this app "</string>
+    <string name="getapp">Get Started</string>
+    <string name="Stsrtapp">Get Things To Do</string>
+</resources>
+

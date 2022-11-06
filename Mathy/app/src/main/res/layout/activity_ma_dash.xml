@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ma_dash"
+    android:background="@color/background_common">
+
+ <TextView
+     android:id="@+id/ma_dash_box3_3"
+     android:layout_width="366dp"
+     android:layout_height="180dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+
+     android:layout_centerHorizontal="true"
+     android:layout_marginStart="29dp"
+     android:layout_marginLeft="29dp"
+     android:layout_marginTop="121dp"
+
+     android:background="@drawable/daash" />
+
+ <TextView
+     android:id="@+id/ma_dash_box3_"
+     android:layout_width="366dp"
+     android:layout_height="180dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+
+     android:layout_centerHorizontal="true"
+     android:layout_marginStart="33dp"
+     android:layout_marginLeft="33dp"
+     android:layout_marginTop="352dp"
+
+     android:background="@drawable/daash" />
+
+ <TextView
+     android:id="@+id/ma_feedback"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_marginTop="21dp"
+     android:layout_marginEnd="120dp"
+     android:layout_marginRight="120dp"
+     android:text="@string/ma_fe_feed"
+     android:textColor="@color/ma_tittle"
+     android:textSize="40dp"
+     android:textStyle="bold|italic" />
+
+ <ImageView
+     android:id="@+id/imageView3"
+     android:layout_width="84dp"
+     android:layout_height="178dp"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="293dp"
+     android:layout_marginRight="293dp"
+     android:layout_marginBottom="302dp"
+     app:srcCompat="@drawable/feedback" />
+
+ <ImageView
+     android:id="@+id/imageView"
+     android:layout_width="84dp"
+     android:layout_height="178dp"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="289dp"
+     android:layout_marginRight="289dp"
+     android:layout_marginBottom="74dp"
+     app:srcCompat="@drawable/feedback" />
+
+ <RatingBar
+     android:id="@+id/ratingBar2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="42dp"
+     android:layout_marginRight="42dp"
+     android:layout_marginBottom="307dp"
+     android:importantForAutofill="yes" />
+
+ <RatingBar
+     android:id="@+id/ratingBar3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="36dp"
+     android:layout_marginRight="36dp"
+     android:layout_marginBottom="84dp"
+     android:importantForAutofill="yes" />
+
+ <TextView
+     android:id="@+id/textView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="43dp"
+     android:layout_marginRight="43dp"
+     android:layout_marginBottom="438dp"
+     android:text="O/L Examination Workshop "
+     android:textSize="20dp"
+     android:textStyle="bold"
+     android:textColor="#000000"/>
+
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="33dp"
+     android:layout_marginRight="33dp"
+     android:layout_marginBottom="207dp"
+     android:text="A/L Examination Workshop "
+     android:textColor="#000000"
+     android:textSize="20dp"
+     android:textStyle="bold" />
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="235dp"
+     android:layout_height="57dp"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="35dp"
+     android:layout_marginRight="35dp"
+     android:layout_marginBottom="363dp"
+     android:text="Presenter was relaxed, extremely informative" />
+
+ <TextView
+     android:id="@+id/textView4"
+     android:layout_width="235dp"
+     android:layout_height="57dp"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="29dp"
+     android:layout_marginRight="29dp"
+     android:layout_marginBottom="139dp"
+     android:text="Presenter was relaxed, extremely informative" />
+
+
+</RelativeLayout>

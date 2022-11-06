@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="13dp"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="122dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="70px"
+            android:src="@drawable/bag" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img1"
+            android:padding="8dp"
+            android:text="Title"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/card1LocationImg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/title_text"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/img1"
+            android:src="@drawable/location_icon" />
+
+        <TextView
+            android:id="@+id/district_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_text"
+            android:layout_toRightOf="@+id/card1LocationImg"
+            android:padding="8dp"
+            android:text="District"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/card1PersonImg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/district_text"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/img1"
+            android:src="@drawable/person_icon" />
+
+        <TextView
+            android:id="@+id/person_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/district_text"
+            android:layout_toRightOf="@+id/card1PersonImg"
+            android:padding="8dp"
+            android:text="Persons"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/card1MoneyImg"-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:layout_below="@id/person_text"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:layout_toRightOf="@+id/img1"-->
+<!--            android:src="@drawable/money_icon" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/amount_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/person_text"-->
+<!--            android:layout_toRightOf="@+id/card1MoneyImg"-->
+<!--            android:padding="8dp"-->
+<!--            android:text="Amount"-->
+<!--            android:textColor="@color/blue"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <ImageView
+            android:id="@+id/card1phone"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/person_text"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/img1"
+            android:src="@drawable/money_icon" />
+
+        <TextView
+            android:id="@+id/mobile_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/person_text"
+            android:layout_toRightOf="@+id/card1phone"
+            android:padding="8dp"
+            android:text="Mobile"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/card1engine"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/mobile_text"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/img1"
+            android:src="@drawable/engineering" />
+
+        <TextView
+            android:id="@+id/engine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobile_text"
+            android:layout_toRightOf="@+id/card1engine"
+            android:padding="8dp"
+            android:text="Engine"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

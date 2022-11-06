@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/biopsytext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".commoninterface">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="203dp"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#F7F6F6"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="98dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="144dp"
+            android:src="@drawable/elders" />
+
+
+        <Button
+            android:id="@+id/bloodtest"
+            android:layout_width="129dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/arrow"
+            android:text="Elders' Charity"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="italic|bold" />
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/arrow" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="203dp"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#F7F6F6"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="301dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="136dp"
+            android:src="@drawable/child" />
+
+        <Button
+            android:id="@+id/imagingtest"
+            android:layout_width="127dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/arrow"
+            android:text="Childrens' Charity"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="italic|bold" />
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/arrow" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="203dp"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#F7F6F6"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="504dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="149dp"
+            android:src="@drawable/dashhome" />
+
+        <Button
+            android:id="@+id/urytest"
+            android:layout_width="133dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/arrow"
+            android:text="Care Charity"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="italic|bold" />
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/arrow" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/Labtestheading"
+        android:layout_width="217dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="648dp"
+        android:text="@string/labtesttxt"
+        android:textColor="#EC5819"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        android:src="@drawable/ic_baseline_dehaze_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
