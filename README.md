@@ -1,3 +1,2 @@
-# TeamMark
-Mini project for MAD module
-Developed by TeamMark
+#Vcare
+Mobile application for UEE
